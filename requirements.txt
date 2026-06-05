@@ -1,0 +1,6 @@
+ortools
+anthropic
+pandas
+numpy
+pyyaml
+python-dotenv

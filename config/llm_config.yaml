@@ -1,0 +1,98 @@
+# LLM Configuration for Constraint Generation
+
+llm:
+  provider: "anthropic"
+  model: "claude-sonnet-4-20250514"
+  temperature: 0.0
+  max_tokens: 2000
+  timeout: 60
+
+validation:
+  syntax_check: true
+  semantic_check: true
+  sandbox_test: false
+  max_retries: 3
+
+system_prompt: |
+  You are a constraint programming expert helping administrators create 
+  scheduling constraints for a university course scheduling system using 
+  Google OR-Tools CP-SAT solver.
+  
+  AVAILABLE DATA STRUCTURES:
+  - model: The CP-SAT model object
+  - students: List of student dicts with keys: 'student_id', 'program', 'required_courses'
+  - sections: Dict mapping course names to list of section dicts
+    Each section has: 'course', 'section_code', 'capacity', 'time_slot_id', 'days', 'start_time', 'end_time'
+  - assignment_vars: Dict[student_id][course][section_idx] = BoolVar
+  - objective_terms: List to append soft constraint penalty terms
+  
+  IMPORTANT RULES:
+  1. Generate ONLY Python code, no explanations
+  2. Use proper indentation (4 spaces)
+  3. Add comments explaining the constraint
+  4. Handle edge cases (empty lists, missing data)
+  5. Use variable names that match the data structures above
+  
+  OUTPUT FORMAT:
+  Return valid Python code that can be directly inserted into the scheduler.
+
+few_shot_examples:
+  - input: "Limit Engineering students to no more than 60% of any PHYS 211 section"
+    output: |
+      # Limit Engineering students to 60% of PHYS 211 sections
+      engineering_programs = ['MECE-BS', 'EEEE-BS', 'CHME-BS', 'CIVT-BS', 'BMED-BS']
+      
+      if 'PHYS 211' in sections:
+          for idx, section in enumerate(sections['PHYS 211']):
+              engineering_in_section = []
+              
+              for student in students:
+                  if student['program'] in engineering_programs:
+                      sid = student['student_id']
+                      if sid in assignment_vars and 'PHYS 211' in assignment_vars[sid]:
+                          if idx in assignment_vars[sid]['PHYS 211']:
+                              engineering_in_section.append(
+                                  assignment_vars[sid]['PHYS 211'][idx]
+                              )
+              
+              if engineering_in_section:
+                  max_engineering = int(section['capacity'] * 0.6)
+                  model.Add(sum(engineering_in_section) <= max_engineering)
+
+  - input: "Distribute Computer Science students evenly across CSCI 141 sections"
+    output: |
+      # Balance CS students across CSCI 141 sections
+      cs_students = [s for s in students if s['program'] == 'COMPSCI-BS']
+      
+      if 'CSCI 141' in sections and len(sections['CSCI 141']) > 1:
+          section_cs_counts = []
+          
+          for idx, section in enumerate(sections['CSCI 141']):
+              cs_in_section = []
+              
+              for student in cs_students:
+                  sid = student['student_id']
+                  if sid in assignment_vars and 'CSCI 141' in assignment_vars[sid]:
+                      if idx in assignment_vars[sid]['CSCI 141']:
+                          cs_in_section.append(assignment_vars[sid]['CSCI 141'][idx])
+              
+              if cs_in_section:
+                  section_var = model.NewIntVar(0, section['capacity'], f"cs_csci141_{idx}")
+                  model.Add(section_var == sum(cs_in_section))
+                  section_cs_counts.append(section_var)
+          
+          if len(section_cs_counts) >= 2:
+              max_cs = model.NewIntVar(0, 500, "max_cs_csci141")
+              min_cs = model.NewIntVar(0, 500, "min_cs_csci141")
+              model.AddMaxEquality(max_cs, section_cs_counts)
+              model.AddMinEquality(min_cs, section_cs_counts)
+              
+              diff = model.NewIntVar(0, 500, "diff_cs_csci141")
+              model.Add(diff == max_cs - min_cs)
+              
+              objective_terms.append(diff * 100)
+
+output:
+  save_generated: true
+  output_dir: "output/generated_constraints"
+  log_requests: true

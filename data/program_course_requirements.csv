@@ -1,0 +1,289 @@
+College,Student Plan,Course Subject,Course Catalog Code,Course Title,Priority Type
+GCCIS,COMPSCI-BS,CSCI,140,Computer Science for AP Students,Block for Required Core
+GCCIS,COMPSCI-BS,CSCI,141,Computer Science I,Block for Required Core
+GCCIS,COMPSCI-BS,MATH,171,Calculus A,Needs Scheduling
+GCCIS,COMPSCI-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+GCCIS,COMPSCI-BS,MATH,182,Calculus II,Needs Scheduling
+GCCIS,COMPSCI-BS,MATH,190,Discrete Mathematics for Computing,Needs Scheduling
+GCCIS,COMPSCI-BS,MATH,219,Multivariable Calculus,Needs Scheduling
+GCCIS,COMPSCI-BS,MATH,221,Multivariable and Vector Calculus,Needs Scheduling
+KGCOE,MECE-BS,MATH,171,Calculus A,Needs Scheduling
+KGCOE,MECE-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,MECE-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,MECE-BS,MATH,190,Discrete Mathematics for Computing,Needs Scheduling
+KGCOE,MECE-BS,MATH,219,Multivariable Calculus,Needs Scheduling
+KGCOE,MECE-BS,MATH,221,Multivariable and Vector Calculus,Needs Scheduling
+KGCOE,MECE-BS,MECE,102,Engineering Mechanics Laboratory,Block for Required Core
+KGCOE,MECE-BS,MECE,104,Engineering Design Tools,Block for Required Core
+KGCOE,MECE-BS,MECE,117,Introduction to Programming for Engineers,Block for Required Core
+GCCIS,CYBER-BS,CSCI,141,Computer Science I,Block for Required Core
+GCCIS,CYBER-BS,CSCI,142,Computer Science II,Block for Required Core
+GCCIS,CYBER-BS,CSCI,243,The Mechanics of Programming,Block for Required Core
+GCCIS,CYBER-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+GCCIS,CYBER-BS,MATH,182,Calculus II,Needs Scheduling
+GCCIS,CYBER-BS,MATH,190,Discrete Mathematics for Computing,Needs Scheduling
+GCCIS,SWEN-BS,SWEN,261,Introduction to Software Engineering,Block for Required Core
+GCCIS,SWEN-BS,SWEN,262,Engineering of Software Subsystems,Block for Required Core
+GCCIS,SWEN-BS,CSCI,141,Computer Science I,Block for Required Core
+GCCIS,SWEN-BS,CSCI,142,Computer Science II,Block for Required Core
+GCCIS,SWEN-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+GCCIS,SWEN-BS,MATH,182,Calculus II,Needs Scheduling
+GCCIS,SWEN-BS,MATH,190,Discrete Mathematics for Computing,Needs Scheduling
+GCCIS,GAMED-BS,IGME,105,Game Development and Algorithmic Problem Solving I,Block for Required Core
+GCCIS,GAMED-BS,IGME,106,Game Development and Algorithmic Problem Solving II,Block for Required Core
+GCCIS,GAMED-BS,IGME,202,Interactive Media Development,Block for Required Core
+GCCIS,GAMED-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+GCCIS,GAMED-BS,MATH,182,Calculus II,Needs Scheduling
+GCCIS,CIT-BS,ISTE,120,Computational Problem Solving I,Block for Required Core
+GCCIS,CIT-BS,ISTE,121,Computational Problem Solving II,Block for Required Core
+GCCIS,CIT-BS,ISTE,230,Introduction to Database and Data Modeling,Block for Required Core
+GCCIS,CIT-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+GCCIS,HCC-BS,HCIN,101,Introduction to Human-Centered Computing,Block for Required Core
+GCCIS,HCC-BS,HCIN,201,Interaction Design,Block for Required Core
+GCCIS,HCC-BS,CSCI,141,Computer Science I,Block for Required Core
+GCCIS,HCC-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+GCCIS,NMID-BS,NMID,101,Introduction to New Media Interactive Development,Block for Required Core
+GCCIS,NMID-BS,NMID,201,Interactive Web Development,Block for Required Core
+GCCIS,NMID-BS,CSCI,141,Computer Science I,Block for Required Core
+KGCOE,CMPE-BS,CMPE,160,Digital System Design I,Block for Required Core
+KGCOE,CMPE-BS,CMPE,250,Assembly and Embedded Programming,Block for Required Core
+KGCOE,CMPE-BS,EEEE,120,Digital Fundamentals,Block for Required Core
+KGCOE,CMPE-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,CMPE-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,CMPE-BS,MATH,219,Multivariable Calculus,Needs Scheduling
+KGCOE,EEEE-BS,EEEE,120,Digital Fundamentals,Block for Required Core
+KGCOE,EEEE-BS,EEEE,132,Circuit Analysis I,Block for Required Core
+KGCOE,EEEE-BS,EEEE,233,Circuit Analysis II,Block for Required Core
+KGCOE,EEEE-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,EEEE-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,EEEE-BS,MATH,219,Multivariable Calculus,Needs Scheduling
+KGCOE,EEEE-BS,PHYS,211,University Physics I,Needs Scheduling
+KGCOE,BMED-BS,BMED,101,Introduction to Biomedical Engineering,Block for Required Core
+KGCOE,BMED-BS,BMED,210,Biomechanics,Block for Required Core
+KGCOE,BMED-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,BMED-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,BMED-BS,CHEM,151,General Chemistry I,Needs Scheduling
+KGCOE,BMED-BS,BIOL,101,General Biology I,Needs Scheduling
+KGCOE,CHME-BS,CHME,201,Introduction to Chemical Engineering,Block for Required Core
+KGCOE,CHME-BS,CHME,301,Chemical Engineering Thermodynamics I,Block for Required Core
+KGCOE,CHME-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,CHME-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,CHME-BS,CHEM,151,General Chemistry I,Needs Scheduling
+KGCOE,ISEE-BS,ISEE,201,Principles of Industrial Engineering,Block for Required Core
+KGCOE,ISEE-BS,ISEE,301,Operations Research I,Block for Required Core
+KGCOE,ISEE-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,ISEE-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,ISEE-BS,STAT,205,Applied Statistics,Needs Scheduling
+KGCOE,MCEE-BS,MCEE,101,Introduction to Microelectronic Engineering,Block for Required Core
+KGCOE,MCEE-BS,MCEE,201,Microelectronics I,Block for Required Core
+KGCOE,MCEE-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+KGCOE,MCEE-BS,MATH,182,Calculus II,Needs Scheduling
+KGCOE,MCEE-BS,CHEM,151,General Chemistry I,Needs Scheduling
+SCB,ACCT-BS,ACCT,110,Financial Accounting,Block for Required Core
+SCB,ACCT-BS,ACCT,210,Managerial Accounting,Block for Required Core
+SCB,ACCT-BS,MGMT,101,Introduction to Business,Block for Required Core
+SCB,ACCT-BS,MATH,161,Applied Calculus,Needs Scheduling
+SCB,ACCT-BS,STAT,145,Introduction to Statistics I,Needs Scheduling
+SCB,FINC-BS,FINC,220,Foundations of Finance,Block for Required Core
+SCB,FINC-BS,FINC,310,Investment Analysis,Block for Required Core
+SCB,FINC-BS,ACCT,110,Financial Accounting,Block for Required Core
+SCB,FINC-BS,MATH,161,Applied Calculus,Needs Scheduling
+SCB,FINC-BS,STAT,145,Introduction to Statistics I,Needs Scheduling
+SCB,GBSM-BS,GBSM,101,Introduction to Global Business,Block for Required Core
+SCB,GBSM-BS,GBSM,201,Global Business Environment,Block for Required Core
+SCB,GBSM-BS,MGMT,101,Introduction to Business,Block for Required Core
+SCB,GBSM-BS,MATH,161,Applied Calculus,Needs Scheduling
+SCB,MGMT-MIS-BS,MGMT,101,Introduction to Business,Block for Required Core
+SCB,MGMT-MIS-BS,ISTE,120,Computational Problem Solving I,Block for Required Core
+SCB,MGMT-MIS-BS,ISTE,230,Introduction to Database and Data Modeling,Block for Required Core
+SCB,MGMT-MIS-BS,MATH,161,Applied Calculus,Needs Scheduling
+SCB,MGMT-MIS-BS,STAT,145,Introduction to Statistics I,Needs Scheduling
+SCB,MRKT-BS,MRKT,220,Principles of Marketing,Block for Required Core
+SCB,MRKT-BS,MRKT,310,Consumer Behavior,Block for Required Core
+SCB,MRKT-BS,MGMT,101,Introduction to Business,Block for Required Core
+SCB,MRKT-BS,MATH,161,Applied Calculus,Needs Scheduling
+SCB,SCMG-BS,SCMG,201,Introduction to Supply Chain Management,Block for Required Core
+SCB,SCMG-BS,SCMG,301,Operations Management,Block for Required Core
+SCB,SCMG-BS,MGMT,101,Introduction to Business,Block for Required Core
+SCB,SCMG-BS,MATH,161,Applied Calculus,Needs Scheduling
+SCB,HTMG-BS,HTMG,101,Introduction to Hospitality and Tourism,Block for Required Core
+SCB,HTMG-BS,HTMG,201,Food Service Management,Block for Required Core
+SCB,HTMG-BS,MGMT,101,Introduction to Business,Block for Required Core
+SCB,HTMG-BS,MATH,161,Applied Calculus,Needs Scheduling
+COS,MATH-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,MATH-BS,MATH,182,Calculus II,Needs Scheduling
+COS,MATH-BS,MATH,219,Multivariable Calculus,Needs Scheduling
+COS,MATH-BS,MATH,241,Linear Algebra,Block for Required Core
+COS,MATH-BS,MATH,251,Probability and Statistics I,Block for Required Core
+COS,STAT-BS,STAT,205,Applied Statistics,Block for Required Core
+COS,STAT-BS,STAT,305,Regression Analysis,Block for Required Core
+COS,STAT-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,STAT-BS,MATH,182,Calculus II,Needs Scheduling
+COS,STAT-BS,MATH,241,Linear Algebra,Needs Scheduling
+COS,BIOL-BS,BIOL,101,General Biology I,Block for Required Core
+COS,BIOL-BS,BIOL,102,General Biology II,Block for Required Core
+COS,BIOL-BS,BIOL,205,Cell and Molecular Biology,Block for Required Core
+COS,BIOL-BS,CHEM,151,General Chemistry I,Needs Scheduling
+COS,BIOL-BS,CHEM,152,General Chemistry II,Needs Scheduling
+COS,BIOL-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,CHEM-BS,CHEM,151,General Chemistry I,Block for Required Core
+COS,CHEM-BS,CHEM,152,General Chemistry II,Block for Required Core
+COS,CHEM-BS,CHEM,231,Organic Chemistry I,Block for Required Core
+COS,CHEM-BS,CHEM,232,Organic Chemistry II,Block for Required Core
+COS,CHEM-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,CHEM-BS,MATH,182,Calculus II,Needs Scheduling
+COS,CHEM-BS,PHYS,211,University Physics I,Needs Scheduling
+COS,PHYS-BS,PHYS,211,University Physics I,Block for Required Core
+COS,PHYS-BS,PHYS,212,University Physics II,Block for Required Core
+COS,PHYS-BS,PHYS,320,Modern Physics,Block for Required Core
+COS,PHYS-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,PHYS-BS,MATH,182,Calculus II,Needs Scheduling
+COS,PHYS-BS,MATH,219,Multivariable Calculus,Needs Scheduling
+COS,BCHEM-BS,CHEM,151,General Chemistry I,Block for Required Core
+COS,BCHEM-BS,CHEM,152,General Chemistry II,Block for Required Core
+COS,BCHEM-BS,BIOL,101,General Biology I,Block for Required Core
+COS,BCHEM-BS,BIOL,205,Cell and Molecular Biology,Block for Required Core
+COS,BCHEM-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,BIOINFO-BS,CSCI,141,Computer Science I,Block for Required Core
+COS,BIOINFO-BS,BIOL,101,General Biology I,Block for Required Core
+COS,BIOINFO-BS,BIOL,205,Cell and Molecular Biology,Block for Required Core
+COS,BIOINFO-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,BIOINFO-BS,STAT,205,Applied Statistics,Needs Scheduling
+COS,BIOTECH-BS,BIOL,101,General Biology I,Block for Required Core
+COS,BIOTECH-BS,BIOL,102,General Biology II,Block for Required Core
+COS,BIOTECH-BS,CHEM,151,General Chemistry I,Needs Scheduling
+COS,BIOTECH-BS,CHEM,152,General Chemistry II,Needs Scheduling
+COS,BIOTECH-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,ENVS-BS,ENVS,101,Introduction to Environmental Science,Block for Required Core
+COS,ENVS-BS,ENVS,201,Environmental Systems,Block for Required Core
+COS,ENVS-BS,CHEM,151,General Chemistry I,Needs Scheduling
+COS,ENVS-BS,BIOL,101,General Biology I,Needs Scheduling
+COS,ENVS-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,IMGS-BS,IMGS,111,Imaging Science Fundamentals,Block for Required Core
+COS,IMGS-BS,IMGS,201,Image Processing,Block for Required Core
+COS,IMGS-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,IMGS-BS,PHYS,211,University Physics I,Needs Scheduling
+COS,COMPM-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+COS,COMPM-BS,MATH,182,Calculus II,Needs Scheduling
+COS,COMPM-BS,MATH,241,Linear Algebra,Block for Required Core
+COS,COMPM-BS,CSCI,141,Computer Science I,Block for Required Core
+COS,COMPM-BS,CSCI,142,Computer Science II,Block for Required Core
+CLA,PSYCH-BS,PSYC,101,Introduction to Psychology,Block for Required Core
+CLA,PSYCH-BS,PSYC,201,Research Methods in Psychology,Block for Required Core
+CLA,PSYCH-BS,PSYC,301,Statistics for Psychology,Block for Required Core
+CLA,PSYCH-BS,MATH,161,Applied Calculus,Needs Scheduling
+CLA,COMM-BS,COMM,101,Introduction to Communication,Block for Required Core
+CLA,COMM-BS,COMM,201,Communication Theory,Block for Required Core
+CLA,COMM-BS,COMM,251,Media Writing,Block for Required Core
+CLA,ADPR-BS,ADPR,101,Introduction to Advertising and Public Relations,Block for Required Core
+CLA,ADPR-BS,ADPR,201,Advertising Strategy,Block for Required Core
+CLA,ADPR-BS,COMM,101,Introduction to Communication,Block for Required Core
+CLA,CRJS-BS,CRJS,101,Introduction to Criminal Justice,Block for Required Core
+CLA,CRJS-BS,CRJS,201,Criminology,Block for Required Core
+CLA,CRJS-BS,CRJS,301,Criminal Law,Block for Required Core
+CLA,ECON-BS,ECON,201,Principles of Macroeconomics,Block for Required Core
+CLA,ECON-BS,ECON,202,Principles of Microeconomics,Block for Required Core
+CLA,ECON-BS,MATH,161,Applied Calculus,Needs Scheduling
+CLA,ECON-BS,STAT,145,Introduction to Statistics I,Needs Scheduling
+CLA,POLS-BS,POLS,101,Introduction to American Politics,Block for Required Core
+CLA,POLS-BS,POLS,201,Comparative Politics,Block for Required Core
+CLA,POLS-BS,POLS,301,Political Theory,Block for Required Core
+CLA,INTL-BS,INTL,101,Introduction to International Studies,Block for Required Core
+CLA,INTL-BS,INTL,201,Global Issues,Block for Required Core
+CLA,INTL-BS,POLS,201,Comparative Politics,Needs Scheduling
+CLA,SOCANT-BS,SOCY,101,Introduction to Sociology,Block for Required Core
+CLA,SOCANT-BS,ANTH,101,Introduction to Anthropology,Block for Required Core
+CLA,SOCANT-BS,SOCY,201,Social Research Methods,Block for Required Core
+CLA,HIST-BS,HIST,101,World History I,Block for Required Core
+CLA,HIST-BS,HIST,102,World History II,Block for Required Core
+CLA,HIST-BS,HIST,201,Historical Methods,Block for Required Core
+CLA,PHIL-BS,PHIL,101,Introduction to Philosophy,Block for Required Core
+CLA,PHIL-BS,PHIL,201,Ethics,Block for Required Core
+CLA,PHIL-BS,PHIL,301,Logic,Block for Required Core
+CLA,NSCI-BS,BIOL,101,General Biology I,Block for Required Core
+CLA,NSCI-BS,PSYC,101,Introduction to Psychology,Block for Required Core
+CLA,NSCI-BS,CHEM,151,General Chemistry I,Needs Scheduling
+CLA,NSCI-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CLA,AMSLC-BS,AMSLC,101,Elementary Modern Language I,Block for Required Core
+CLA,AMSLC-BS,AMSLC,102,Elementary Modern Language II,Block for Required Core
+CLA,AMSLC-BS,AMSLC,201,Intermediate Modern Language I,Block for Required Core
+CLA,ENGL-BS,ENGL,101,Freshman Composition,Block for Required Core
+CLA,ENGL-BS,ENGL,201,Introduction to Literary Studies,Block for Required Core
+CLA,ENGL-BS,ENGL,301,Advanced Writing,Block for Required Core
+CLA,MSMS-BS,MSMS,101,Introduction to Museum Studies,Block for Required Core
+CLA,MSMS-BS,MSMS,201,Museum Collections Management,Block for Required Core
+CLA,MSMS-BS,HIST,101,World History I,Needs Scheduling
+CLA,GLFUT-BS,GLFUT,101,Introduction to Global Futures,Block for Required Core
+CLA,GLFUT-BS,GLFUT,201,Futures Thinking,Block for Required Core
+CLA,GLFUT-BS,POLS,101,Introduction to American Politics,Needs Scheduling
+CLA,WGSS-BS,WGSS,101,Introduction to Women Gender and Sexuality Studies,Block for Required Core
+CLA,WGSS-BS,WGSS,201,Feminist Theory,Block for Required Core
+CLA,WGSS-BS,SOCY,101,Introduction to Sociology,Needs Scheduling
+CAD,PHOTO-BS,PHTS,101,Photographic Practices,Block for Required Core
+CAD,PHOTO-BS,PHTS,201,Photographic Systems,Block for Required Core
+CAD,PHOTO-BS,MATH,161,Applied Calculus,Needs Scheduling
+CAD,PHOTO-BS,PHYS,111,College Physics I,Needs Scheduling
+CAD,MPSC-BS,MPSC,101,Introduction to Motion Picture Science,Block for Required Core
+CAD,MPSC-BS,MPSC,201,Cinematography,Block for Required Core
+CAD,MPSC-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CAD,MPSC-BS,PHYS,211,University Physics I,Needs Scheduling
+CAD,HCMD-BS,HCMD,101,Introduction to Humanities Computing and Design,Block for Required Core
+CAD,HCMD-BS,HCMD,201,Digital Media Design,Block for Required Core
+CAD,HCMD-BS,CSCI,141,Computer Science I,Needs Scheduling
+CET,CIVT-BS,CIVT,101,Introduction to Civil Engineering Technology,Block for Required Core
+CET,CIVT-BS,CIVT,201,Surveying,Block for Required Core
+CET,CIVT-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CET,CIVT-BS,PHYS,211,University Physics I,Needs Scheduling
+CET,CPET-BS,CPET,101,Introduction to Computer Engineering Technology,Block for Required Core
+CET,CPET-BS,CPET,201,Digital Electronics,Block for Required Core
+CET,CPET-BS,EEEE,120,Digital Fundamentals,Needs Scheduling
+CET,CPET-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CET,EEET-BS,EEET,101,Introduction to Electrical Engineering Technology,Block for Required Core
+CET,EEET-BS,EEET,201,Circuit Analysis,Block for Required Core
+CET,EEET-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CET,MFET-BS,MFET,101,Introduction to Manufacturing Engineering Technology,Block for Required Core
+CET,MFET-BS,MFET,201,Manufacturing Processes,Block for Required Core
+CET,MFET-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CET,MCET-BS,MCET,101,Introduction to Mechatronics Engineering Technology,Block for Required Core
+CET,MCET-BS,MCET,201,Sensors and Actuators,Block for Required Core
+CET,MCET-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CET,MET-BS,MET,101,Introduction to Mechanical Engineering Technology,Block for Required Core
+CET,MET-BS,MET,201,Statics and Strength of Materials,Block for Required Core
+CET,MET-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CET,ESHS-BS,ESHS,101,Introduction to Environmental Sustainability Health and Safety,Block for Required Core
+CET,ESHS-BS,ESHS,201,Environmental Regulations,Block for Required Core
+CET,ESHS-BS,CHEM,151,General Chemistry I,Needs Scheduling
+CET,ESHS-BS,BIOL,101,General Biology I,Needs Scheduling
+CET,PKSC-BS,PKSC,101,Introduction to Packaging Science,Block for Required Core
+CET,PKSC-BS,PKSC,201,Packaging Materials,Block for Required Core
+CET,PKSC-BS,CHEM,151,General Chemistry I,Needs Scheduling
+CET,PKSC-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CHST,BMSC-BS,BIOL,101,General Biology I,Block for Required Core
+CHST,BMSC-BS,BIOL,102,General Biology II,Block for Required Core
+CHST,BMSC-BS,CHEM,151,General Chemistry I,Needs Scheduling
+CHST,BMSC-BS,CHEM,152,General Chemistry II,Needs Scheduling
+CHST,BMSC-BS,MATH,181,Project-Based Calculus I,Needs Scheduling
+CHST,EXSC-BS,EXSC,101,Introduction to Exercise Science,Block for Required Core
+CHST,EXSC-BS,EXSC,201,Exercise Physiology,Block for Required Core
+CHST,EXSC-BS,BIOL,101,General Biology I,Needs Scheduling
+CHST,EXSC-BS,CHEM,151,General Chemistry I,Needs Scheduling
+CHST,NUTR-BS,NUTR,101,Introduction to Nutritional Sciences,Block for Required Core
+CHST,NUTR-BS,NUTR,201,Principles of Nutrition,Block for Required Core
+CHST,NUTR-BS,BIOL,101,General Biology I,Needs Scheduling
+CHST,NUTR-BS,CHEM,151,General Chemistry I,Needs Scheduling
+CHST,GPHL-BS,GPHL,101,Introduction to Global Public Health,Block for Required Core
+CHST,GPHL-BS,GPHL,201,Epidemiology,Block for Required Core
+CHST,GPHL-BS,BIOL,101,General Biology I,Needs Scheduling
+CHST,GPHL-BS,STAT,145,Introduction to Statistics I,Needs Scheduling
+CHST,DMS-BS,DMS,101,Introduction to Diagnostic Medical Sonography,Block for Required Core
+CHST,DMS-BS,DMS,201,Sonographic Physics,Block for Required Core
+CHST,DMS-BS,BIOL,101,General Biology I,Needs Scheduling
+CHST,DMS-BS,PHYS,111,College Physics I,Needs Scheduling
+NTID,ASLE-BS,ASLE,101,Introduction to ASL-English Interpretation,Block for Required Core
+NTID,ASLE-BS,ASLE,201,ASL Linguistics,Block for Required Core
+NTID,ASLE-BS,ASLE,301,Interpreting Theory,Block for Required Core
+NTID,CDIL-BS,CDIL,101,Introduction to Community Development,Block for Required Core
+NTID,CDIL-BS,CDIL,201,Inclusive Leadership,Block for Required Core
+NTID,CDIL-BS,SOCY,101,Introduction to Sociology,Needs Scheduling
+SOIS,INDS-BS,INDS,101,Introduction to Individualized Study,Block for Required Core
+SOIS,INDS-BS,INDS,201,Interdisciplinary Research Methods,Block for Required Core
