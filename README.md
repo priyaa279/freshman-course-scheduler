@@ -10,8 +10,6 @@ An end-to-end course-scheduling system that assigns **4,155 synthetic freshmen t
 
 **Project materials:** [Capstone Report](docs/report.pdf) · [Capstone Poster — presentation version](docs/poster.pdf)
 
-> **Documentation note:** The capstone report and presentation poster capture earlier evaluation snapshots. Current repository metrics are reported from the reproducible project dataset where they differ from archived presentation materials.
-
 ---
 
 ## Why this project
@@ -170,6 +168,8 @@ This is reported as-is. The value of the project is the end-to-end capability ap
 | Capacity utilization | 60.6% |
 | Decision variables | 317,431 |
 | Total constraints | 453,158 |
+
+*Documentation note: The capstone report and presentation poster capture earlier evaluation snapshots. Current repository metrics are reported from the reproducible project dataset where they differ from archived presentation materials.*
 
 Input files: `course_sections.csv`, `program_course_requirements.csv`, `program_cohort_distribution.csv`. Student records are generated at runtime from the cohort distribution.
 
