@@ -1,10 +1,14 @@
 # Automated Freshman Course Scheduling — LLM-Generated Constraints + CP-SAT Optimization
 
-An end-to-end course-scheduling system that assigns **4,155 freshmen to 634 sections** under hard institutional policies — where the policies are written in plain English by an administrator and translated into verified solver constraints by an LLM, then optimized with Google OR-Tools CP-SAT.
+An end-to-end course-scheduling system that assigns **4,155 synthetic freshmen to 634 sections** under hard institutional policies — where the policies are written in plain English by an administrator and translated into verified solver constraints by an LLM, then optimized with Google OR-Tools CP-SAT.
 
 **Stack:** Python · Google OR-Tools (CP-SAT) · Anthropic Claude Sonnet API · Power BI.
 
 > Capstone Project — Rochester Institute of Technology, Golisano College of Computing and Information Sciences.
+
+**Recognition:** Best Project Runner-Up — RIT CS Graduate Projects 2026
+
+**Project materials:** [Capstone Report](docs/report.pdf) · [Capstone Poster — presentation version](docs/poster.pdf)
 
 ---
 
@@ -23,6 +27,14 @@ This project automates the full pipeline. It is built around one idea: **let the
 ---
 
 ## Architecture
+
+<p align="center">
+  <img src="docs/system_architecture.png"
+       alt="Freshman Course Scheduler architecture showing data validation, LLM-generated constraint validation, CP-SAT optimization, and Power BI output"
+       width="1100">
+</p>
+
+*Architecture overview adapted from Figure 1 of the Capstone Report; dataset labels updated to match the current reproducible project dataset.*
 
 ```
 Plain-English policy
@@ -151,11 +163,13 @@ This is reported as-is. The value of the project is the end-to-end capability ap
 | Students | 4,155 |
 | Sections | 634 |
 | Courses | 148 |
-| Total capacity | 25,187 |
+| Total capacity | 25,197 |
 | Total demand | 15,274 |
 | Capacity utilization | 60.6% |
 | Decision variables | 317,431 |
 | Total constraints | 453,158 |
+
+*Documentation note: The capstone report and presentation poster capture earlier evaluation snapshots. Current repository metrics are reported from the reproducible project dataset where they differ from archived presentation materials.*
 
 Input files: `course_sections.csv`, `program_course_requirements.csv`, `program_cohort_distribution.csv`. Student records are generated at runtime from the cohort distribution.
 
@@ -184,8 +198,9 @@ dashboard/
   scheduler_dashboard.pbix     Power BI dashboard (3 pages)
   screenshots/
 docs/
-  poster.pdf                   Capstone poster
-  report.pdf                   Full capstone report
+  system_architecture.png      Architecture overview adapted from the current report
+  poster.pdf                   Capstone poster — presentation version
+  report.pdf                   Capstone report
 ```
 
 ---
@@ -237,7 +252,7 @@ Color-coded section fill rates: underutilized (< 50%), balanced (50–90%), near
 
 ## One-line summary
 
-> Built an end-to-end freshman scheduling system for RIT (4,155 students, 634 sections) that replaces weeks of manual trial-and-error: administrators write policies in plain English, an LLM translates them into verified CP-SAT constraints with hallucination guards, and Google OR-Tools finds a conflict-free assignment in 302 seconds. A single English policy (25% CS cap on intro CS) cut max section enrollment from 28 to 10.
+> Built an end-to-end freshman scheduling prototype for an RIT-scale scenario (4,155 synthetic students, 634 sections) that demonstrates the potential to replace weeks of manual trial-and-error with a minutes-scale automated workflow: administrators write policies in plain English, an LLM translates them into verified CP-SAT constraints with hallucination guards, and Google OR-Tools finds a conflict-free assignment in 302 seconds. A single English policy (25% CS cap on intro CS) cut max section enrollment from 28 to 10.
 
 ---
 
