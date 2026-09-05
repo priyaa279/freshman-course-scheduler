@@ -29,7 +29,7 @@ This project automates the full pipeline. It is built around one idea: **let the
 ## Architecture
 
 <p align="center">
-  <img src="docs/system_architecture.png"
+  <img src="docs/architecture2.png"
        alt="Freshman Course Scheduler architecture showing data validation, LLM-generated constraint validation, CP-SAT optimization, and Power BI output"
        width="1100">
 </p>
